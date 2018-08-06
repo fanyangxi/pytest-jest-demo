@@ -1,0 +1,20 @@
+--show-capture={no,stdout,stderr,log,all}
+
+py.test -v -s --show-capture=stdout tests/*
+py.test -v -s --show-capture=stdout tests/*
+py.test -v -s tests/**/*.py
+py.test -v -s tests/home_page_tests/sample_1_tests.py
+yarn jest --watchAll
+
+
+### Jest-Pytest::A Jest and Pytest integration made in heaven
+https://jest-community.github.io/jest-pytest/
+https://github.com/jest-community/jest-pytest
+
+### How can I see normal print output created during pytest run?
+The -s switch disables per-test capturing.
+
+### classic xunit-style setup
+https://docs.pytest.org/en/latest/xunit_setup.html#xunitsetup
+
++

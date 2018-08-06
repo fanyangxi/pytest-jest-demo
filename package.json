@@ -1,0 +1,17 @@
+{
+  "name": "pytest-demo",
+  "version": "1.0.0",
+  "description": "demo pytest & jest",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.4.2",
+    "jest-pytest": "^0.7.0"
+  },
+  "jest": {
+    "moduleFileExtensions": ["py"],
+    "runner": "jest-pytest",
+    "testPathIgnorePatterns": [],
+    "testMatch": ["<rootDir>/tests/**/*_tests.py"]
+  }
+}
